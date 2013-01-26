@@ -1,0 +1,4 @@
+schematics ckt-dccpwr.sch
+output-name ../pcb/ckt-dccpwr
+skip-m4
+elements-dir ../../footprints
