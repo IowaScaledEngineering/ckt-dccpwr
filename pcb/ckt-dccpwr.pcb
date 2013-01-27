@@ -3,10 +3,10 @@
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20070407]
 
-PCB["" 165000 41000]
+PCB["" 165000 50000]
 
 Grid[500.0 0 0 0]
-Cursor[0 0 0.000000]
+Cursor[0 4500 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[800 800 800 1000 2000 800]
@@ -788,7 +788,7 @@ Symbol['~' 1200]
 )
 Attribute("PCB::grid::unit" "mil")
 
-Element["" "DB-1" "D1" "unknown" 49000 10500 37000 -6000 0 100 ""]
+Element["" "DB-1" "D1" "unknown" 49000 15000 37000 -6000 0 100 ""]
 (
 	Pin[0 0 6000 3000 6600 2800 "1" "1" "square,edge2"]
 	Pin[0 20000 6000 3000 6600 2800 "2" "2" "edge2"]
@@ -803,7 +803,7 @@ Element["" "DB-1" "D1" "unknown" 49000 10500 37000 -6000 0 100 ""]
 
 	)
 
-Element["hidename" "TERMBLK2_200MIL" "J1" "unknown" 21500 20500 0 0 3 100 ""]
+Element["hidename" "TERMBLK2_200MIL" "J1" "unknown" 21500 25000 0 0 3 100 ""]
 (
 	Pin[0 -10000 8000 3000 8600 4800 "1" "1" "square"]
 	Pin[0 10000 8000 3000 8600 4800 "2" "2" ""]
@@ -815,7 +815,7 @@ Element["hidename" "TERMBLK2_200MIL" "J1" "unknown" 21500 20500 0 0 3 100 ""]
 
 	)
 
-Element["" "cap-elec-Generic-D8.00-LS3.50-mm" "C1" "100uF" 105000 20500 12500 12000 0 100 ""]
+Element["" "cap-elec-Generic-D8.00-LS3.50-mm" "C1" "100uF" 105000 25000 12500 12000 0 100 ""]
 (
 	Pin[0 6900 6000 2000 6600 3000 "+" "1" "square"]
 	Pin[0 -6900 6000 2000 6600 3000 "2" "2" ""]
@@ -825,7 +825,7 @@ Element["" "cap-elec-Generic-D8.00-LS3.50-mm" "C1" "100uF" 105000 20500 12500 12
 
 	)
 
-Element["hidename" "TERMBLK2_200MIL" "J2" "unknown" 143500 20500 0 0 1 100 ""]
+Element["hidename" "TERMBLK2_200MIL" "J2" "unknown" 143500 25000 0 0 1 100 ""]
 (
 	Pin[0 10000 8000 3000 8600 4800 "1" "1" "square"]
 	Pin[0 -10000 8000 3000 8600 4800 "2" "2" ""]
@@ -838,33 +838,35 @@ Element["hidename" "TERMBLK2_200MIL" "J2" "unknown" 143500 20500 0 0 1 100 ""]
 	)
 Layer(1 "component")
 (
-	Line[21500 30500 49000 30500 5000 2000 "clearline"]
-	Line[21500 10500 49000 10500 5000 2000 "clearline"]
-	Line[79000 10500 101900 10500 5000 2000 "clearline"]
-	Line[101900 10500 105000 13600 5000 2000 "clearline"]
-	Line[79000 30500 101900 30500 5000 2000 "clearline"]
-	Line[101900 30500 105000 27400 5000 2000 "clearline"]
-	Line[105000 27400 126600 27400 5000 2000 "clearline"]
-	Line[126600 27400 143500 10500 5000 2000 "clearline"]
+	Line[21500 35000 49000 35000 5000 2000 "clearline"]
+	Line[21500 15000 49000 15000 5000 2000 "clearline"]
+	Line[79000 15000 101900 15000 5000 2000 "clearline"]
+	Line[101900 15000 105000 18100 5000 2000 "clearline"]
+	Line[79000 35000 101900 35000 5000 2000 "clearline"]
+	Line[101900 35000 105000 31900 5000 2000 "clearline"]
+	Line[105000 31900 126600 31900 5000 2000 "clearline"]
+	Line[126600 31900 143500 15000 5000 2000 "clearline"]
 )
 Layer(2 "solder")
 (
-	Line[105000 13600 126600 13600 5000 2000 "clearline"]
-	Line[126600 13600 143500 30500 5000 2000 "clearline"]
+	Line[105000 18100 126600 18100 5000 2000 "clearline"]
+	Line[126600 18100 143500 35000 5000 2000 "clearline"]
 )
 Layer(3 "silk")
 (
+	Text[10000 28000 0 100 "Iowa Scaled Engineering" "clearline,onsolder"]
+	Text[109500 28000 0 100 "CKT-DCCPWR v1.0" "clearline,onsolder"]
 )
 Layer(4 "silk")
 (
-	Line[500 500 500 40500 1000 2000 "clearline"]
-	Line[500 40500 164500 40500 1000 2000 "clearline"]
-	Line[164500 40500 164500 500 1000 2000 "clearline"]
+	Line[500 500 500 49500 1000 2000 "clearline"]
+	Line[500 49500 164500 49500 1000 2000 "clearline"]
+	Line[164500 49500 164500 500 1000 2000 "clearline"]
 	Line[164500 500 500 500 1000 2000 "clearline"]
-	Text[7500 6000 3 100 "DCC" "clearline"]
-	Text[7500 26000 3 100 "DCC" "clearline"]
-	Text[157500 13000 1 100 "V+" "clearline"]
-	Text[157500 35500 1 100 "GND" "clearline"]
+	Text[7500 10500 3 100 "DCC" "clearline"]
+	Text[7500 30500 3 100 "DCC" "clearline"]
+	Text[157500 17500 1 100 "V+" "clearline"]
+	Text[157500 40000 1 100 "GND" "clearline"]
 )
 NetList()
 (
