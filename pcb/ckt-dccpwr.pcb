@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["" 165000 50000]
 
 Grid[500.0 0 0 0]
-Cursor[0 4500 0.000000]
+Cursor[1000 500 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[800 800 800 1000 2000 800]
@@ -856,6 +856,8 @@ Layer(3 "silk")
 (
 	Text[10000 28000 0 100 "Iowa Scaled Engineering" "clearline,onsolder"]
 	Text[109500 28000 0 100 "CKT-DCCPWR v1.0" "clearline,onsolder"]
+	Text[72500 46500 0 100 "(C)2013" "clearline,onsolder"]
+	Text[55000 10500 0 100 "http://iascaled.com" "clearline,onsolder"]
 )
 Layer(4 "silk")
 (
