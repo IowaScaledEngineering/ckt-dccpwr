@@ -958,11 +958,11 @@ Layer(4 "silk")
 	Line[1545.00mil 5.00mil 5.00mil 5.00mil 10.00mil 20.00mil "clearline"]
 	Line[5.00mil 5.00mil 5.00mil 895.00mil 10.00mil 20.00mil "clearline"]
 	Line[5.00mil 895.00mil 80.00mil 895.00mil 10.00mil 20.00mil "clearline"]
-	Line[715.00mil 585.00mil 1375.00mil 585.00mil 10.00mil 20.00mil "clearline"]
+	Line[315.00mil 600.00mil 975.00mil 600.00mil 10.00mil 20.00mil "clearline,selected"]
 	Text[550.00mil 105.00mil 0 100 "http://iascaled.com" "clearline,onsolder"]
-	Text[715.00mil 670.00mil 0 100 "Iowa Scaled Engineering" "clearline,onsolder"]
-	Text[720.00mil 570.00mil 0 100 "CKT-DCCPWR-REG v1.0" "clearline,onsolder"]
-	Text[720.00mil 495.00mil 0 100 "CC BY-SA  -  (C) 2016" "clearline,onsolder"]
+	Text[315.00mil 685.00mil 0 100 "Iowa Scaled Engineering" "clearline,selected,onsolder"]
+	Text[320.00mil 585.00mil 0 100 "CKT-DCCPWR-REG v1.0" "clearline,selected,onsolder"]
+	Text[320.00mil 510.00mil 0 100 "CC BY-SA  -  (C) 2016" "clearline,selected,onsolder"]
 )
 Layer(5 "silk")
 (
