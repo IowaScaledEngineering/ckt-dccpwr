@@ -1,0 +1,4 @@
+schematics ckt-dccpwr-reg.sch
+output-name ../pcb/ckt-dccpwr-reg
+skip-m4
+elements-dir ../../ise-footprints
